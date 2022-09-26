@@ -10,7 +10,7 @@ This project is where I restructured the code for my Awesome Books app. code. Th
 
 ## Live Demo 
 
-[Live Demo Link](https://miliyonayalew.github.io/Awesome-Books-Es6/)
+[Live Demo Link](https://miliyonayalew.github.io/Awesome-Book-Es6/)
 
 ## Author
 👤 **Miliyon Ayalew**
