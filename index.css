@@ -1,0 +1,162 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 97vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border: 3px solid black;
+  padding: 0 1rem;
+  height: 10vh;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+.active {
+  color: blue;
+}
+
+.book-list li {
+  font-size: 1rem;
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+
+nav ul li:nth-child(2) {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding: 0 1rem;
+}
+
+#date {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+section {
+  margin-top: 0;
+  height: 79vh;
+}
+
+section h2 {
+  font-size: 2.5rem;
+}
+
+section ul {
+  text-decoration: none;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+  border: 3px solid black;
+}
+
+.book-list li:nth-child(odd) {
+  background-color: #c9d1d9;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.book-list p {
+  margin: 0;
+}
+
+.book-list button {
+  font-size: 1rem;
+  justify-self: end;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 5px 5px black;
+}
+
+.add-book {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border: 3px solid black;
+  width: 35vw;
+  height: 2rem;
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+::placeholder {
+  font-size: 1rem;
+  color: black;
+  opacity: 1;
+}
+
+#addButton {
+  font-size: 1rem;
+  align-self: flex-end;
+  width: fit-content;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 3px 3px black;
+}
+
+.add-book > * {
+  margin-top: 1rem;
+}
+
+#listPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#addPage {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contactPage {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contactPage p {
+  font-size: 1.3rem;
+}
+
+#contactPage ul {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-top: 0;
+}
+
+footer {
+  border: 3px solid black;
+  padding: 0 1rem;
+  justify-self: flex-end;
+  height: 9vh;
+}
