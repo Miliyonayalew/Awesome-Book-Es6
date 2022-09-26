@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Awesome Books</title>
   <link rel="stylesheet" href="index.css">
+  <script type="module" src="./index.js"></script>
 </head>
 <body>
   <nav>
@@ -20,8 +21,9 @@
       <p id="date">hello here is the date</p>
         <article id="listPage">
           <h2>All awesome Books</h2>
-          <ul class="book-list"> 
-          </ul>
+            <div class="book-container">
+              <ul class="book-list"></ul>
+            </div>
         </article>
         <article id="addPage">
           <h2>Add a new book</h2>
@@ -30,6 +32,7 @@
             <input class="input" id="author" type="text" placeholder="Author" required><br>
             <button id="addButton" type="submit">Add</button>
           </form>
+          <p class="info">Field is empty</p>
         </article>
       <article id="contactPage">
           <h2>Contact information</h2>
