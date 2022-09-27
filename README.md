@@ -1,8 +1,8 @@
 # Awesome-Book-Es6
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project is where I restructured the code for my Awesome Books app. code. The goal is to make it more organized by using modules. And to create  ES6 syntax that I have learned. 
-"Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, I learn how to manage data using JavaScript, how to use modules and ES6.
+This project is where I restructured the code for my Awesome Books app. The goal is to make it more organized by using modules. And to create  ES6 syntax that I have learned. 
+- "Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, I learn how to manage data using JavaScript, how to use modules and ES6.
 
 ## Built With
 - HTML5, CSS3 and JavaScript
@@ -10,7 +10,7 @@ This project is where I restructured the code for my Awesome Books app. code. Th
 
 ## Live Demo 
 
-[Live Demo Link](https://miliyonayalew.github.io/Awesome-Books-Es6/)
+[Live Demo Link](https://miliyonayalew.github.io/Awesome-Book-Es6/)
 
 ## Author
 👤 **Miliyon Ayalew**
